@@ -4,14 +4,17 @@
 
 var grosBiscuit = document.getElementById("biscuit");
 var texteBiscuit = document.getElementById("texte-biscuits");
+var boutonClic = document.getElementById("bouton-clic")
 
-var biscuits;
+var biscuits = 0;
+var increment = 1;
 
 // ====================================================
 // =  Déclaration des événements                      =
 // ====================================================
 
 grosBiscuit.addEventListener('click', ajouterBiscuit);
+boutonClic.addEventListener('click', ameliorerClic)
 
 // ====================================================
 // =  Code qui sera exécuté au chargement de la page  =
@@ -24,7 +27,11 @@ grosBiscuit.addEventListener('click', ajouterBiscuit);
 // ====================================================
 
 function ajouterBiscuit(){
-    biscuits++
+    biscuits += increment;
     console.log(biscuits);
     texteBiscuit.innerHTML = biscuits + " biscuits";
+}
+
+function ameliorerClic(){
+    increment++;
 }

@@ -35,6 +35,7 @@ body{
     background-color: #ccc;
     display: grid;
     grid-template-columns: 1fr 4fr;
+    cursor: pointer;
 }
 #biscuit{
     cursor: pointer;
