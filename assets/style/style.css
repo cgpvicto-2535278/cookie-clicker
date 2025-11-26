@@ -1,7 +1,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-image: ;
+    background-image: url(./assets/images/background.jpg);
 }
 #boite-jeu{
     border: 2px solid #000;
