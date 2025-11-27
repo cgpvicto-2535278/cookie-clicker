@@ -34,7 +34,7 @@ body{
     margin: 10px;
     background-color: #ccc;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 4fr 1fr;
     cursor: pointer;
 }
 #biscuit{
