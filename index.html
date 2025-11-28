@@ -12,25 +12,36 @@
     <div id="boite-jeu">
         <div id="zone-biscuit">
             <h2 id="texte-biscuits">0 Biscuits</h2>
+            <h4 class="par" id="par-seconde">0 par seconde</h4>
+            <h4 class="par" id="par-clic">1 par clic</h4>
             <img src="./assets/images/cookie.png" alt="biscuit" id="biscuit" width="225px">
         </div>
+        <div id="ligne"></div>
         <div id="zone-achat">
-            <h2>Boutique</h2>
-            <div class="boutons" id="bouton-curseur">
-                <img src="./assets/images/curseur.png" width="50px">
-                <div class="texte-boutons">
-                    <h3>Ajout curseur</h3>
-                    <p id="prixCurseurs">50 biscuit(s)</p>
+            <div>
+                <h2>Boutique</h2>
+                <div class="boutons" id="bouton-curseur">
+                    <img src="./assets/images/curseur.png" width="50px">
+                    <div class="texte-boutons">
+                        <h3>Ajout curseur</h3>
+                        <p id="prixCurseurs">50 biscuit(s)</p>
+                    </div>
+                    <h1 id="nombreCurseurs">0</h1>
                 </div>
-                <h1 id="nombreCurseurs">0</h1>
+                <div class="boutons" id="bouton-clic">
+                    <img src="./assets/images/mouse.png" width="50px">
+                    <div class="texte-boutons">
+                        <h3>Amélioration souris</h3>
+                        <p id="prixClic">200 biscuit(s)</p>
+                    </div>
+                    <h1 id="nombreClic">0</h1>
+                </div>
             </div>
-            <div class="boutons" id="bouton-clic">
-                <img src="./assets/images/mouse.png" width="50px">
-                <div class="texte-boutons">
-                    <h3>Amélioration souris</h3>
-                    <p id="prixClic">200 biscuit(s)</p>
+            <div id="zone-bas">
+                <p>Vincent Houle | 2025</p>
+                <div id="bouton-sauvegarde">
+                    Sauvegarde
                 </div>
-                <h1 id="nombreClic">1</h1>
             </div>
         </div>
     </div>

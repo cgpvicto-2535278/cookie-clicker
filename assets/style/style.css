@@ -6,7 +6,7 @@ body{
 #boite-jeu{
     margin-top: 5rem;
     width: 50vw;
-    height: 50vh;
+    height: 25rem;
     background: rgba(255, 255, 255, 0.26);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -14,7 +14,7 @@ body{
     -webkit-backdrop-filter: blur(9.5px);
     border: 1px solid rgba(255, 255, 255, 0.54);
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 0.1fr 1.5fr;
 }
 #zone-biscuit{
     display: flex;
@@ -23,15 +23,21 @@ body{
     text-align: center;
     flex-direction: column;
 }
+.par{
+    margin-top: -20px;
+}
 #zone-achat{
     padding: 10px;
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .boutons{
     box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.75);
     border-radius: 5px;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #ccc;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -39,4 +45,28 @@ body{
 }
 #biscuit{
     cursor: pointer;
+}
+#bouton-sauvegarde{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100px;
+    background-color: #fb5;
+    border: #ea4 solid 2px;
+    text-align: center;
+    box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#ligne{
+    height: 300px;
+    width: 0;
+    border: 1px solid #000;
+    margin-top: 50px;
+}
+#zone-bas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
