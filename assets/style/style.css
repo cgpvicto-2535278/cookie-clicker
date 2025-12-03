@@ -74,3 +74,6 @@ body{
 #biscuit:active{
     transform: scale(1.1);
 }
+#biscuit:not(:active){
+    transform: skew(5deg);
+}
