@@ -45,6 +45,7 @@ body{
 }
 #biscuit{
     cursor: pointer;
+    transition: all 0.05s;
 }
 #bouton-sauvegarde{
     padding-left: 25px;
@@ -69,4 +70,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+#biscuit:active{
+    transform: scale(1.1);
 }
